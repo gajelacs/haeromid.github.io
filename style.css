@@ -1,0 +1,58 @@
+/* ===== 1. Pengaturan Dasar Halaman ===== */
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333333;           /* Warna teks utama (hitam agak soft) */
+  background-color: #F8F9FA; /* Warna latar belakang seluruh halaman */
+}
+
+/* ===== 2. Warna Judul ===== */
+
+h1, h2, h3 {
+  color: #1E3F20;           /* Warna hijau tua untuk judul */
+}
+
+/* ===== 3. Warna Link & Menu Navigasi ===== */
+
+a {
+  color: #056636;           /* Warna dasar teks link */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F4CE14;           /* Warna link saat di-hover (kuning lemon) */
+}
+
+/* ===== 4. Warna Header & Footer ===== */
+
+header {
+  background-color: #1E3F20; /* Warna background header */
+  color: #FFFFFF;            /* Warna teks di header */
+  padding: 10px;
+}
+
+header a {
+  color: #F4CE14;            /* Warna link khusus di dalam header */
+}
+
+footer {
+  background-color: #1E3F20; /* Warna background footer */
+  color: #FFFFFF;            /* Warna teks footer */
+  padding: 10px;
+}
+
+/* ===== 5. Warna Tabel ===== */
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #056636; /* Warna latar header tabel */
+  color: #FFFFFF;            /* Warna teks header tabel */
+}
+
+td, th {
+  border: 1px solid #DDDDDD;
+  padding: 8px;
+}
